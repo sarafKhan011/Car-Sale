@@ -1,0 +1,140 @@
+{
+    "carDetails":[
+        {
+        "label":"Listing Title",
+        "name":"listingTitle",
+        "fieldType":"text",
+        "required": true,
+        "column": 2,
+        "icon":"FaClipboardList"
+
+    },
+    {
+        "label":"Tagline",
+        "name":"tagline",
+        "fieldType":"text",
+        "column": 2,
+        "icon":"FaTag" 
+    },
+    {
+        "label":"Original Price",
+        "name":"originalPrice",
+        "fieldType":"text",
+        "column": 1,
+        "icon":"ImPriceTags" 
+    },
+    {
+        "label":"Selling Price",
+        "name":"sellingPrice",
+        "fieldType":"text",
+        "required": true,
+        "column": 1,
+        "icon":"MdPriceChange"
+    },
+    {
+        "label":"Category",
+        "name":"category",
+        "fieldType":"dropdown",
+        "options":["Sedan","SUV","Truck","Coupe","Convertible","Van","Electric","Hatchback"],
+        "required": true,
+        "column": 1,
+        "icon":"TbCategoryPlus"
+    },
+    {
+       "label":"Condition",
+        "name":"condition",
+        "fieldType":"dropdown",
+        "required": true,
+        "options":["New","Used","Truck","Certified Pre-Owned"],
+        "column": 1,
+        "icon":"VscDebugBreakpointConditional"
+    },
+    {
+        "label":"Type",
+        "name":"type",
+        "fieldType":"dropdown",
+        "required": true,
+        "options":["Electric","Hybrid","Petrol","Diesel"],
+        "column": 1,
+        "icon":"SiTyper"
+    },
+    {
+        "label":"Make",
+        "name":"make",
+        "fieldType":"dropdown",
+        "required": true,
+        "options":["Toyota","Honda","Ford","Nissan","BMW","Mercedes-Benz","Audi","Tesla","Volkswagen","Hyundai","Kia",
+            "Lexus","Subaru","Mazda","Jeep","Volvo","Land Rover","Jaguar","Mitsubishi","Lamborgini","Bugatti","Pagani",
+            "Suzuki","Tata","Quit"],
+        "column": 1,
+        "icon":"ImMakeGroup"
+    },
+    {
+        "label":"Model",
+        "name":"model",
+        "fieldType":"text",
+        "required": true,
+        "column": 1,
+        "icon":"IoLogoModelS"
+    },
+    {
+        "label":"Year",
+        "name":"year",
+        "fieldType":"number",
+        "required": true,
+        "column": 1,
+        "icon":"GrValidate"
+    },
+    {
+        "label":"Drive Type",
+        "name":"driveType",
+        "fieldType":"dropdown",
+        "options":["FWD","RWD","AWD","4WD"],
+        "required": true,
+        "column": 1,
+        "icon":"GiMassDriver"
+    },
+    {
+        "label":"Transmission",
+        "name":"transmission",
+        "fieldType":"dropdown",
+        "options":["Automatic","Manual","CVT"],
+        "required": true,
+        "column": 1,
+        "icon":"SiTransmission"
+    },
+    {
+        "label":"Cylinder",
+        "name":"cylinder",
+        "fieldType":"number",
+        "required": true,
+        "column": 1,
+        "icon":"GiGasStove"
+    },
+    {
+        "label":"Door",
+        "name":"door",
+        "fieldType":"number",
+        "required": true,
+        "column": 1,
+        "icon":"GiCarDoor"
+    },
+    {
+        "label":"Offer Type",
+        "name":"offerType",
+        "fieldType":"dropdown",
+        "options":["Buy","Hot Offer","Sell","Urgent"],
+        "required": true,
+        "column": 2,
+        "icon":"BiSolidOffer"
+    },
+    {
+        "label":"Listing Discription",
+        "name":"listingDescription",
+        "fieldType":"textarea",
+        "required": true,
+        "column": 2,
+        "icon":"HiClipboardDocumentList"
+    }
+    ]
+}
